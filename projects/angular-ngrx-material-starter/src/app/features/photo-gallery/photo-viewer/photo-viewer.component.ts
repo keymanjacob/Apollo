@@ -4,7 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import 'rxjs';
 
 @Component({
-  selector: 'omni-web-lonestar-photo-viewer',
+  selector: 'apollo-photo-viewer',
   templateUrl: './photo-viewer.component.html',
   styleUrls: ['./photo-viewer.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush

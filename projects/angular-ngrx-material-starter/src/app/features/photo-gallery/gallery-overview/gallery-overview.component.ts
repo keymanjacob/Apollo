@@ -3,7 +3,7 @@ import { ROUTE_ANIMATIONS_ELEMENTS } from '../../../core/animations/route.animat
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'omni-web-lonestar-gallery-overview',
+  selector: 'apollo-gallery-overview',
   templateUrl: './gallery-overview.component.html',
   styleUrls: ['./gallery-overview.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush

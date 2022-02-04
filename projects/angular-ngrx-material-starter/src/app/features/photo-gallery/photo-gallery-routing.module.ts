@@ -8,7 +8,7 @@ const routes: Routes = [
   {
     path: 'overview',
     component: GalleryOverviewComponent,
-    data: { title: 'omni-web-lonestar.menu.photoGallery' }
+    data: { title: 'apollo.menu.photoGallery' }
     /* children: [
       {
         path: 'photo-viewer',

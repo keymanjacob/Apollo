@@ -23,7 +23,7 @@ import {
 } from '../core/settings/settings.actions';
 
 @Component({
-  selector: 'anms-root',
+  selector: 'apollo-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [routeAnimations]
@@ -36,14 +36,14 @@ export class AppComponent implements OnInit {
   logo = 'assets/logo.png';
   languages = ['en', 'de', 'sk', 'fr', 'es', 'pt-br', 'zh-cn', 'he', 'ar'];
   navigation = [
-    { link: 'about', label: 'anms.menu.about' },
-    { link: 'feature-list', label: 'anms.menu.features' },
-    { link: 'photo-gallery', label: 'anms.menu.photoGallery' },
-    { link: 'examples', label: 'anms.menu.examples' }
+    { link: 'about', label: 'apollo.menu.about' },
+    { link: 'feature-list', label: 'apollo.menu.features' },
+    { link: 'photo-gallery', label: 'apollo.menu.photoGallery' },
+    { link: 'examples', label: 'apollo.menu.examples' }
   ];
   navigationSideMenu = [
     ...this.navigation,
-    { link: 'settings', label: 'anms.menu.settings' }
+    { link: 'settings', label: 'apollo.menu.settings' }
   ];
 
   isAuthenticated$: Observable<boolean> | undefined;
