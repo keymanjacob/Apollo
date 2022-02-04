@@ -38,6 +38,7 @@ export class AppComponent implements OnInit {
   navigation = [
     { link: 'about', label: 'anms.menu.about' },
     { link: 'feature-list', label: 'anms.menu.features' },
+    { link: 'photo-gallery', label: 'anms.menu.photoGallery' },
     { link: 'examples', label: 'anms.menu.examples' }
   ];
   navigationSideMenu = [

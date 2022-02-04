@@ -27,6 +27,13 @@ const routes: Routes = [
       )
   },
   {
+    path: 'photo-gallery',
+    loadChildren: () =>
+      import('./features/photo-gallery/photo-gallery.module').then(
+        (m) => m.PhotoGalleryModule
+      )
+  },
+  {
     path: 'examples',
     loadChildren: () =>
       import('./features/examples/examples.module').then(

@@ -1,0 +1,17 @@
+<div class="gallery-container">
+  <div class="gallery-header">{{ 'omni-web-lonestar.menu.photoGallery.viewing' | translate }}
+    <button mat-button color="primary" class="back-button" (click)="getBackToGallery()">Back</button>
+  </div>
+  <div class="row">
+    <div class="col-md-1">
+      <p class="text-right">previous</p>
+
+    </div>
+    <img class="image-viewer col-md-10" [src]="imageSrc" alt="">
+    <div class="col-md-1 text-left">
+      <p class="text-right">
+        Next
+      </p>
+    </div>
+  </div>
+</div>
